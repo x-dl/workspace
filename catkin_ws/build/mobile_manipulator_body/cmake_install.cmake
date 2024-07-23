@@ -1,8 +1,8 @@
-# Install script for directory: /home/jasper123/catkin_ws/src/mobile_manipulator_body
+# Install script for directory: /home/jasper123/workspace/catkin_ws/src/mobile_manipulator_body
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jasper123/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jasper123/workspace/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jasper123/catkin_ws/build/mobile_manipulator_body/catkin_generated/installspace/mobile_manipulator_body.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jasper123/workspace/catkin_ws/build/mobile_manipulator_body/catkin_generated/installspace/mobile_manipulator_body.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_manipulator_body/cmake" TYPE FILE FILES
-    "/home/jasper123/catkin_ws/build/mobile_manipulator_body/catkin_generated/installspace/mobile_manipulator_bodyConfig.cmake"
-    "/home/jasper123/catkin_ws/build/mobile_manipulator_body/catkin_generated/installspace/mobile_manipulator_bodyConfig-version.cmake"
+    "/home/jasper123/workspace/catkin_ws/build/mobile_manipulator_body/catkin_generated/installspace/mobile_manipulator_bodyConfig.cmake"
+    "/home/jasper123/workspace/catkin_ws/build/mobile_manipulator_body/catkin_generated/installspace/mobile_manipulator_bodyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_manipulator_body" TYPE FILE FILES "/home/jasper123/catkin_ws/src/mobile_manipulator_body/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mobile_manipulator_body" TYPE FILE FILES "/home/jasper123/workspace/catkin_ws/src/mobile_manipulator_body/package.xml")
 endif()
 

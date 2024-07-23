@@ -1,4 +1,4 @@
-prefix=/home/jasper123/catkin_ws/devel
+prefix=/home/jasper123/workspace/catkin_ws/devel
 
 Name: mobile_manipulator_body
 Description: Description of mobile_manipulator_body
