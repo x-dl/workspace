@@ -458,6 +458,21 @@ mobile_manipulator_body_BINARY_DIR:STATIC=/home/jasper123/workspace/catkin_ws/bu
 //Value Computed by CMake
 mobile_manipulator_body_SOURCE_DIR:STATIC=/home/jasper123/workspace/catkin_ws/src/mobile_manipulator_body
 
+//The directory containing a CMake configuration file for move_base_msgs.
+move_base_msgs_DIR:PATH=move_base_msgs_DIR-NOTFOUND
+
+//Value Computed by CMake
+navigation_testing_BINARY_DIR:STATIC=/home/jasper123/workspace/catkin_ws/build/rosbot_ros/src/navigation_testing
+
+//Value Computed by CMake
+navigation_testing_SOURCE_DIR:STATIC=/home/jasper123/workspace/catkin_ws/src/rosbot_ros/src/navigation_testing
+
+//Value Computed by CMake
+rosbot_navigation_BINARY_DIR:STATIC=/home/jasper123/workspace/catkin_ws/build/rosbot_ros/src/rosbot_navigation
+
+//Value Computed by CMake
+rosbot_navigation_SOURCE_DIR:STATIC=/home/jasper123/workspace/catkin_ws/src/rosbot_ros/src/rosbot_navigation
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
 
@@ -633,7 +648,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

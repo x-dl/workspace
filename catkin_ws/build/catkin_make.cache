@@ -1,2 +1,2 @@
-mobile_manipulator_body
+mobile_manipulator_body:rosbot_ros/src/navigation_testing:rosbot_ros/src/rosbot_bringup:rosbot_ros/src/rosbot_description:rosbot_ros/src/rosbot_gazebo:rosbot_ros/src/rosbot_navigation
 -DCATKIN_DEVEL_PREFIX=/home/jasper123/workspace/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jasper123/workspace/catkin_ws/install -G Unix Makefiles
