@@ -132,6 +132,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jasper123/workspace/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/jasper123/workspace/catkin_ws/build/mobile_manipulator_body/cmake_install.cmake")
+  include("/home/jasper123/workspace/catkin_ws/build/rosbot_ros/src/navigation_testing/cmake_install.cmake")
+  include("/home/jasper123/workspace/catkin_ws/build/rosbot_ros/src/rosbot_navigation/cmake_install.cmake")
+  include("/home/jasper123/workspace/catkin_ws/build/rosbot_ros/src/rosbot_bringup/cmake_install.cmake")
+  include("/home/jasper123/workspace/catkin_ws/build/rosbot_ros/src/rosbot_description/cmake_install.cmake")
+  include("/home/jasper123/workspace/catkin_ws/build/rosbot_ros/src/rosbot_gazebo/cmake_install.cmake")
 
 endif()
 
